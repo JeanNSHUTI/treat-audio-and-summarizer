@@ -1,0 +1,27 @@
+# Run project 1 and 2: Gestions de systèmes de fichiers + Gestions systèmes ou réseaux.
+
+# [Arg0] : Direcotry path to audio recording files
+# [Arg1] : "True" for convert and "False" to denoise ausio and create spectograms
+# ex. [Arg0] : C:\Users\Admin\Documents\HE2B\Master2\LangageScript\AudioTestData 
+# ex. [Arg1] : False
+
+python 3 main.py [Arg0] [Arg1]
+
+#--------------------------------------------------------------------------------
+
+
+# Run project 3: Gestions de fichiers textes
+
+# [Arg0] : Path to online aricle or local pdf file
+# [Arg1] : "True" for abstractive summary and "False" for extractive summary
+# ex. [Arg0] : C:\Users\Admin\Documents\HE2B\Master2\LangageScript\pdf_articles\nanomaterials-12-03612-v2.pdf 
+# ex. [Arg1] : False
+
+python 3 summarizer.py [Arg0] [Arg1]
+
+#--------------------------------------------------------------------------------
+
+
+
+
+
